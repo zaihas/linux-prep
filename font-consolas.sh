@@ -11,6 +11,9 @@ if [ ! -d "$FONT_DIR" ]; then
 fi
 cd $FONT_DIR
 
+# install software that is needed
+sudo apt-get install -y cabextract font-manager
+
 # get windows cab
 wget http://download.microsoft.com/download/E/6/7/E675FFFC-2A6D-4AB0-B3EB-27C9F8C8F696/PowerPointViewer.exe
 
