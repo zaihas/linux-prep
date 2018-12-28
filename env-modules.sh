@@ -35,7 +35,7 @@ NUM_CC=${#CC_VER[@]}
 # -----------------------------------------------------------
 
 # install environment-modules
-sudo apt-get -y install environment-modules
+sudo apt-get -y install tcl environment-modules
 
 # install fix for virtual-machine can't detect executable
 sudo apt-get -y install lib32ncurses5
