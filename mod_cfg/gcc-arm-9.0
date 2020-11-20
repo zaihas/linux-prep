@@ -2,13 +2,13 @@
 
 proc ModuleHelp { } {
     global version prefix
-    puts stderr "\tarm-none-eabi-gcc (GNU Tools for ARM 7.0)"
+    puts stderr "\tarm-none-eabi-gcc (GNU Tools for ARM 9.0)"
 }
 
-module-whatis   "arm-none-eabi-gcc (GNU Tools for ARM 7.0)"
+module-whatis   "arm-none-eabi-gcc (GNU Tools for ARM 9.0)"
 
-set        basedir      /opt/gcc-arm-7.0
-set        version      7.0
+set        basedir      /opt/gcc-arm-9.0
+set        version      9.0
 set        sys          linux86_64
 set        asstr        "arm-none-eabi-gcc -x assembler-with-cpp"
 
